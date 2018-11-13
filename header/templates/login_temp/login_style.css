@@ -1,0 +1,267 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('images/image.jpg');
+    background-size: cover;
+}
+
+.logo
+{
+    width: 160px;
+    height: auto;
+    display: inline-block;
+    float: left;
+    outline: none;
+    padding:0px 590px 30px;
+
+}
+
+.logo h1
+{
+    font-family: Calibri;
+    font-weight: normal;
+    color: wheat;
+    outline: none;
+}
+
+.logo h1 b
+{
+    font-weight: 700;
+    margin-right: 5px;
+    color: #948691;
+    outline: none;
+}
+
+.main
+{
+    max-width: 1559px;
+}
+.box
+{
+    position: absolute;
+    top: 53%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 500px;
+    padding: 40px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+
+.box h2
+{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.box .inputBox
+{
+    position: relative;
+}
+
+.box .inputBox input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+
+}
+
+.box .inputBox label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+
+{
+    top: -18px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+}
+
+.box input[type="submit"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.message
+{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.box p
+{
+    font-size: 15px;
+}
+.message a
+{
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.right-box
+{
+    position: absolute;
+    top: 50%;
+    left: 160%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+    float: right;
+}
+
+.or
+{
+    position: absolute;
+    top: 230px;
+    left: 462px;
+    width: 40px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    line-height:40px;
+    text-align: center;
+}
+
+.right-box .signinwith {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+button.social
+{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition:0.25s ease;
+    cursor: pointer;
+}
+
+.facebook
+{
+    background:	#32508e;
+}
+
+.twitter
+{
+    background:	#55acee;
+}
+
+.google
+{
+    background:	#dd4b39;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
